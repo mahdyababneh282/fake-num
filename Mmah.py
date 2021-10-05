@@ -6,7 +6,7 @@ from time import sleep
 from telebot import types
 import random
 
-token = input("[~] Enter Token :")
+token = "2017704413:AAHZl_5jJArBM8sCxxrsVC60OOH-TiuGFSM"
 bot = telebot.TeleBot(token)
 
 sleep = 5
