@@ -14,7 +14,7 @@ check = types.InlineKeyboardButton(text ="SmS List ", callback_data = 'sms')
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    list = ['+972552603210','+918527834283','+917428731210','+917428731268','+917428730894'
+    list = ['+972552603210','+918527834283','+917428731210','+917428731268','+917428730894']
     phonenumber = f"+{rws} "
     getsmss = "https://givt.ga/sms/message?n={rws}"
 
